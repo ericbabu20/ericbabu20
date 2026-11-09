@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-label="Eric Babu — Product Owner creating clear digital experiences for UK energy customers">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070B16"/>
+      <stop offset="1" stop-color="#0F172A"/>
+    </linearGradient>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="70"/>
+    </filter>
+    <filter id="blurGlass" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="28"/>
+    </filter>
+    <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.04"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.45"/>
+      <stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.08"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.25"/>
+    </linearGradient>
+    <linearGradient id="nameGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#CBD5E1"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#FFFFFF" stroke-opacity="0.035" stroke-width="1"/>
+    </pattern>
+    <clipPath id="card">
+      <rect x="60" y="48" width="1080" height="264" rx="28"/>
+    </clipPath>
+    <style>
+      .t { font-family: 'Inter', 'SF Pro Display', -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; }
+      .float1 { animation: f1 14s ease-in-out infinite; }
+      .float2 { animation: f2 18s ease-in-out infinite; }
+      .float3 { animation: f1 22s ease-in-out infinite reverse; }
+      @keyframes f1 { 0%,100% { transform: translate(0,0); } 50% { transform: translate(60px,20px); } }
+      @keyframes f2 { 0%,100% { transform: translate(0,0); } 50% { transform: translate(-70px,-15px); } }
+    </style>
+  </defs>
+
+  <!-- background -->
+  <rect width="1200" height="360" fill="url(#bg)"/>
+  <g filter="url(#blur)">
+    <circle class="float1" cx="230" cy="90" r="150" fill="#14B8A6" opacity="0.55"/>
+    <circle class="float2" cx="980" cy="270" r="170" fill="#3B82F6" opacity="0.55"/>
+    <circle class="float3" cx="660" cy="40" r="110" fill="#8B5CF6" opacity="0.40"/>
+  </g>
+  <rect width="1200" height="360" fill="url(#grid)"/>
+
+  <!-- frosted glass card: re-blurred colour inside the card simulates backdrop blur -->
+  <g clip-path="url(#card)">
+    <g filter="url(#blurGlass)" opacity="0.6">
+      <circle class="float1" cx="230" cy="90" r="150" fill="#14B8A6" opacity="0.5"/>
+      <circle class="float2" cx="980" cy="270" r="170" fill="#3B82F6" opacity="0.5"/>
+      <circle class="float3" cx="660" cy="40" r="110" fill="#8B5CF6" opacity="0.4"/>
+    </g>
+    <rect x="60" y="48" width="1080" height="264" fill="url(#glass)"/>
+  </g>
+  <rect x="60.5" y="48.5" width="1079" height="263" rx="28" fill="none" stroke="url(#edge)" stroke-width="1"/>
+
+  <!-- eyebrow -->
+  <g class="t">
+    <rect x="108" y="88" width="252" height="32" rx="16" fill="#FFFFFF" fill-opacity="0.08" stroke="#FFFFFF" stroke-opacity="0.18"/>
+    <circle cx="128" cy="104" r="4" fill="#2DD4BF"/>
+    <text x="142" y="109" font-size="13" font-weight="500" letter-spacing="1.6" fill="#E2E8F0">PRODUCT OWNER · UK</text>
+
+    <!-- name -->
+    <text x="104" y="190" font-size="72" font-weight="600" letter-spacing="-2.5" fill="url(#nameGrad)">Eric Babu</text>
+
+    <!-- tagline -->
+    <text x="108" y="232" font-size="20" font-weight="400" letter-spacing="-0.2" fill="#94A3B8">Clear digital experiences for UK energy customers.</text>
+
+    <!-- chips -->
+    <g font-size="13" font-weight="500" fill="#CBD5E1" text-anchor="middle">
+      <rect x="108" y="256" width="118" height="30" rx="15" fill="#FFFFFF" fill-opacity="0.06" stroke="#FFFFFF" stroke-opacity="0.14"/>
+      <text x="167" y="276">Energy Tech</text>
+      <rect x="236" y="256" width="118" height="30" rx="15" fill="#FFFFFF" fill-opacity="0.06" stroke="#FFFFFF" stroke-opacity="0.14"/>
+      <text x="295" y="276">AI Products</text>
+      <rect x="364" y="256" width="104" height="30" rx="15" fill="#FFFFFF" fill-opacity="0.06" stroke="#FFFFFF" stroke-opacity="0.14"/>
+      <text x="416" y="276">UX · Discovery</text>
+      <rect x="478" y="256" width="96" height="30" rx="15" fill="#FFFFFF" fill-opacity="0.06" stroke="#FFFFFF" stroke-opacity="0.14"/>
+      <text x="526" y="276">Analytics</text>
+    </g>
+
+    <text x="1100" y="286" font-size="13" font-weight="400" fill="#64748B" text-anchor="end">Leicester, UK</text>
+  </g>
+</svg>
