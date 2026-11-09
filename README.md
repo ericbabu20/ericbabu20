@@ -1,8 +1,10 @@
-<!-- GitHub profile README · github.com/ericbabu20 · keep README.md and assets/ together at repo root -->
+<!-- GitHub profile README · github.com/ericbabu20 · single file, no assets needed -->
 
 <div align="center">
 
-<img src="assets/header.svg" width="100%" alt="Eric Babu — Product Owner creating clear digital experiences for UK energy customers" />
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:070B16,55:0F172A,100:134E4A&height=230&text=Eric%20Babu&fontSize=68&fontColor=F8FAFC&fontAlign=50&fontAlignY=42&desc=Product%20Owner%20%C2%B7%20Energy%20Tech%20%C2%B7%20AI%20Products%20%C2%B7%20Leicester%2C%20UK&descSize=17&descAlign=50&descAlignY=66&animation=fadeIn" width="100%" alt="Eric Babu — Product Owner creating clear digital experiences for UK energy customers" />
+
+<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=400&size=16&duration=3200&pause=1000&color=94A3B8&center=true&vCenter=true&width=560&lines=Clear+digital+experiences+for+UK+energy+customers;Discover+%E2%86%92+Define+%E2%86%92+Ship+%E2%86%92+Measure" alt="Tagline" />
 
 <br/><br/>
 
@@ -129,5 +131,7 @@ Before product, I worked in construction, sales and interior design. That mix st
 <br/>
 
 <div align="center">
-<a href="https://www.linkedin.com/in/ericbabu"><img src="assets/footer.svg" width="100%" alt="Let's build something useful — connect on LinkedIn" /></a>
+
+<a href="https://www.linkedin.com/in/ericbabu"><img src="https://capsule-render.vercel.app/api?type=rect&color=0:134E4A,45:0F172A,100:070B16&height=120&text=Let%27s%20build%20something%20useful.&fontSize=30&fontColor=F8FAFC&fontAlign=50&fontAlignY=42&desc=Made%20with%20curiosity%2C%20customer%20empathy%20and%20a%20camera%20close%20by&descSize=14&descAlign=50&descAlignY=72" width="100%" alt="Let's build something useful — connect on LinkedIn" /></a>
+
 </div>
